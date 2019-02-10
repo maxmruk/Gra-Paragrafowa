@@ -1,0 +1,47 @@
+﻿<Window x:Class="GraParagrafowa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GraParagrafowa"
+        mc:Ignorable="d" FontSize="15"
+        Title="Ekspedycja Podmrok" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="60" 
+                   Text="Ekspedycja Podmrok Menu"/>
+        <TextBlock x:Name="Introducion" Grid.Column="1" Grid.Row="2"
+         Text="Witaj Śmiałku od towich wyborów będzie zależał los ekspedycjii do tajemniczej krainy zwanej Podmrokiem."
+         />
+        <TextBlock x:Name="IntroductionCD" Grid.Column="1" Grid.Row="3"
+         Text="Jest to wijąca się sieć tuneli w której żyją liczne dziwaczne stwory. Każdy zaułek może prowadzic w nowe"        
+        />
+        <TextBlock x:Name="IntroductionCDD" Grid.Column="1" Grid.Row="4"
+         Text="straszliwe miejsce a każdy krok może być ostatnim. Czytaj uważnie i dokonuj wyborów Grupy poszukiwaczy"
+         />
+        <TextBlock x:Name="IntroductionCDDD" Grid.Column="1" Grid.Row="5"
+         Text="by sprawdzić jaki czeka ich Los!"
+         />
+        <Button x:Name="Action1button" Content="Nowa Gra" FontSize="55" Grid.Column="1" Grid.Row="7" Margin="10,9,366,-202" Click="OpenWindow"/>
+        
+        <Button x:Name="Action2Button" Content="Wyjście" FontSize="55" Grid.Column="1" Grid.Row="7" Margin="366,9,10,-202" Click="CloseWindow"/>
+    </Grid>
+</Window>
