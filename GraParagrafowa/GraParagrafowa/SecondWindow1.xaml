@@ -29,18 +29,18 @@
         <TextBlock Grid.Column="1" Grid.Row="1" FontSize="60" 
                    Text="Wejście do Pieczary"/>
         <TextBlock x:Name="Pieczaraakcja" Grid.Column="1" Grid.Row="2"
-         Text="Ekspedycja Dowodzona przez dzielnego Wojownika Ronana zaczyna swoją przygode przed jamą w ziemi"
+         Text="Ekspedycja dowodzona przez dzielnego Wojownika Ronana zaczyna swoją przygodę przed jamą w ziemi."
          />
         <TextBlock x:Name="Pieczaraakcjaa" Grid.Column="1" Grid.Row="3"
-         Text="Ronan stojąc nad nia rozważa jakie niebezpieczeństwą mogą na nich czychać w podziemiach"        
+         Text="Ronan stojąc przed wejściem do Pieczary rozważa jakie niebezpieczeństwą mogą na nich czychać w podziemiach."        
         />
         <TextBlock x:Name="Pieczaraakcjaaa" Grid.Column="1" Grid.Row="4"
-         Text="Jego Toważysze para ludzi Valerian i Elodie czekają zniecierpliwieni na decyzję"
+         Text="Jego Toważysze, para ludzi - Valerian i Elodie, czekają zniecierpliwieni na jego decyzję."
          />
         <TextBlock x:Name="Pieczaraakcjaaaa" Grid.Column="1" Grid.Row="5"
-         Text="Ronan Ostatecznie sapie i wybiera następująco"
+         Text="Ronan ostatecznie sapie i wybiera następująco:"
          />
-        <Button x:Name="Action1button" Content="Chodźmy w głąb nie ma co czekać!" FontSize="20" Grid.Column="1" Grid.Row="6" Margin="10,10,366,10" Click="OpenWindow"/>
-        <Button x:Name="Action2Button" Content="Lepiej wrócić do karczmy i pić!" FontSize="20" Grid.Column="1" Grid.Row="6" Margin="366,10,10,10" Click="CloseWindow"/>
+        <Button x:Name="Action1button" Content="Chodźmy w głąb, nie ma co czekać!" FontSize="20" Grid.Column="1" Grid.Row="6" Margin="10,10,400,10" Click="Action1button_Click"/>
+        <Button x:Name="Action2Button" Content="Lepiej wrócić do karczmy i pić!" FontSize="20" Grid.Column="1" Grid.Row="6" Margin="400,10,10,10" Click="Action2button_Click"/>
     </Grid>
 </Window>

@@ -14,3 +14,6 @@ E:\Gra Paragrafowa\GraParagrafowa\GraParagrafowa\obj\Debug\GraParagrafowa.csproj
 E:\Gra Paragrafowa\GraParagrafowa\GraParagrafowa\obj\Debug\GraParagrafowa.exe
 E:\Gra Paragrafowa\GraParagrafowa\GraParagrafowa\obj\Debug\GraParagrafowa.pdb
 E:\Gra Paragrafowa\GraParagrafowa\GraParagrafowa\obj\Debug\SecondWindow1.g.cs
+E:\Gra Paragrafowa\GraParagrafowa\GraParagrafowa\obj\Debug\ThirdWindow1.g.cs
+E:\Gra Paragrafowa\GraParagrafowa\GraParagrafowa\obj\Debug\SecondWindow1.baml
+E:\Gra Paragrafowa\GraParagrafowa\GraParagrafowa\obj\Debug\ThirdWindow1.baml

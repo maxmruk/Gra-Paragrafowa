@@ -23,5 +23,17 @@ namespace GraParagrafowa
         {
             InitializeComponent();
         }
+
+        private void Action2button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void Action1button_Click(object sender, RoutedEventArgs e)
+        {
+            ThirdWindow1 ThirdWindow1 = new ThirdWindow1();
+            this.Visibility = Visibility.Hidden;
+            ThirdWindow1.Show(); //  Shows a window
+        }
     }
 }

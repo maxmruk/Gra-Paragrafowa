@@ -27,21 +27,22 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Column="1" Grid.Row="1" FontSize="60" 
-                   Text="Ekspedycja Podmrok Menu"/>
+         Text="Ekspedycja Podmrok Menu"
+         />
         <TextBlock x:Name="Introducion" Grid.Column="1" Grid.Row="2"
-         Text="Witaj Śmiałku od towich wyborów będzie zależał los ekspedycjii do tajemniczej krainy zwanej Podmrokiem."
+         Text="Witaj Śmiałku! Od Twoich wyborów będzie zależał los ekspedycji do tajemniczej krainy zwanej Podmrokiem."
          />
         <TextBlock x:Name="IntroductionCD" Grid.Column="1" Grid.Row="3"
-         Text="Jest to wijąca się sieć tuneli w której żyją liczne dziwaczne stwory. Każdy zaułek może prowadzic w nowe"        
+         Text="Podmrok to kraina z wijącą się siecią tuneli, w której żyją liczne, dziwaczne stwory. Każdy zaułek może prowadzić"        
         />
         <TextBlock x:Name="IntroductionCDD" Grid.Column="1" Grid.Row="4"
-         Text="straszliwe miejsce a każdy krok może być ostatnim. Czytaj uważnie i dokonuj wyborów Grupy poszukiwaczy"
+         Text="w nowe straszliwe miejsce, a każdy krok może być ostatnim. Czytaj uważnie i dokonuj wyborów Grupy poszukiwaczy,"
          />
         <TextBlock x:Name="IntroductionCDDD" Grid.Column="1" Grid.Row="5"
          Text="by sprawdzić jaki czeka ich Los!"
          />
-        <Button x:Name="Action1button" Content="Nowa Gra" FontSize="55" Grid.Column="1" Grid.Row="7" Margin="10,9,366,-202" Click="OpenWindow"/>
-        
-        <Button x:Name="Action2Button" Content="Wyjście" FontSize="55" Grid.Column="1" Grid.Row="7" Margin="366,9,10,-202" Click="CloseWindow"/>
+        <Button x:Name="Action1button" Content="Nowa Gra" FontSize="55" Grid.Column="1" Grid.Row="7" Margin="10,9,400,-202" Click="Action1button_Click"/>
+
+        <Button x:Name="Action2Button" Content="Wyjście" FontSize="55" Grid.Column="1" Grid.Row="7" Margin="400,9,10,-202" Click="Action2button_Click"/>
     </Grid>
 </Window>
