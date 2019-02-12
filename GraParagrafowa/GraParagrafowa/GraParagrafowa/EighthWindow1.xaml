@@ -1,0 +1,40 @@
+﻿<Window x:Class="GraParagrafowa.EighthWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GraParagrafowa"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="60" 
+         Text="Komnata skarbów"
+         />
+        <TextBlock x:Name="Introducion" Grid.Column="1" Grid.Row="2" FontSize="17"
+         Text="Udało się! Ronan dotarł po obsydinowej ścieżce do zagłębienia wypełnionego złotem oraz klejnotami."
+         />
+        <TextBlock x:Name="IntroductionCD" Grid.Column="1" Grid.Row="3" FontSize="17"
+         Text="Po napełnieniu toreb po brzegi skarbami. Pozostaje jedynie powrócić bezpiecznie do cywilizacji."        
+        />
+        <Button x:Name="Action1button" Content="Gratulacje Zwycięstwo!" FontSize="55" Grid.Column="1" Grid.Row="7" Margin="10,10,10,-200" Click="Action1button_Click"/>
+    </Grid>
+</Window>

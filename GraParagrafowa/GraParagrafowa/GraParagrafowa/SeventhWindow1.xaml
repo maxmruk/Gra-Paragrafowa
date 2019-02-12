@@ -1,0 +1,48 @@
+﻿<Window x:Class="GraParagrafowa.SeventhWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GraParagrafowa"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="60" 
+         Text="Obsydianowa Plaża"
+         />
+        <TextBlock x:Name="Introducion" Grid.Column="1" Grid.Row="2" FontSize="15"
+         Text="Po wyjściu z płytkiej wody Ronan, Valerian oraz Elodie stąpają po plaży z drobnego obsydianu. Pochodnia"
+         />
+        <TextBlock x:Name="IntroductionCD" Grid.Column="1" Grid.Row="3" FontSize="15"
+         Text="nadaje jej złowieszczego blasku. Podczas marszu Valerian wypuszcza się na przód grupy, zauroczony obsydinowym"        
+        />
+        <TextBlock x:Name="IntroductionCDD" Grid.Column="1" Grid.Row="4" FontSize="15"
+         Text="piaskiem. Nagle z cienia atakuje go blady łeb ogromnej, białej kobry. Elodie natychmiast rzuca się mu z pomocą,"
+         />
+        <TextBlock x:Name="IntroductionCDDD" Grid.Column="1" Grid.Row="5" FontSize="15"
+         Text="zaś Ronan waha się przez chwilę co zrobić"
+         />
+        <Button x:Name="Action1button" Content="Ronan atakuje kobrę" FontSize="20" Grid.Column="1" Grid.Row="7" Margin="10,10,400,-200" Click="Action1button_Click"/>
+
+        <Button x:Name="Action2Button" Content="Ronan opuszcza towarzyszy" FontSize="20" Grid.Column="1" Grid.Row="7" Margin="400,10,10,-200" Click="Action2button_Click"/>
+    </Grid>
+</Window>
